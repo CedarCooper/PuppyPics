@@ -1,9 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap");
 body {
 	background-image: url("https://barketplace.uk/wp-content/uploads/2018/02/1184.jpg");
+	background-repeat: no-repeat center center fixed;
 	background-size: cover;
-	background-repeat: no-repeat;
 	font-family: "Tilt Neon", Courier, monospace;
+}
+
+#dog-gif {
+	margin: auto;
+	display: block;
+	width: 20%;
 }
 
 h1,
@@ -15,11 +21,6 @@ p,
 }
 h2 {
 	text-align: center;
-}
-
-img {
-	margin: auto;
-	display: block;
 }
 
 a {
