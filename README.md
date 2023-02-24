@@ -1,4 +1,4 @@
-Frontend Take-Home Exercise
+Frontend Take-Home Exercise:
 Your task is to build a webpage with a user creation form. The form should take the following required inputs:
 
 Full Name
