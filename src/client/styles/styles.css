@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap");
+body {
+	background-image: url("https://barketplace.uk/wp-content/uploads/2018/02/1184.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: "Tilt Neon", Courier, monospace;
+}
+
+h1,
+p,
+.Confirmed {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+a {
+	padding: 0px 8px;
+	word-wrap: normal;
+	display: inline-block;
+}
+
+.Form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #8fbc8f80;
+	border: 0.5px solid white;
+	border-radius: 5px;
+	margin-left: 30%;
+	margin-right: 30%;
+}
+#submit {
+	margin-top: 10px;
+	margin-bottom: 15px;
+	padding: 0%;
+	background-color: #89b889;
+}
+#submit:hover {
+	background-color: #63a163;
+}
+input,
+select {
+	box-sizing: border-box;
+	display: block;
+	width: 100%;
+	height: 45px;
+	padding: 12px 15px 2px;
+	background-color: #fff;
+	border: 1px solid #d2d1d3;
+	border-radius: 5px;
+	font-size: 12px;
+	-webkit-transition: border-color 0.15s;
+	-o-transition: border-color 0.15s;
+	transition: border-color 0.15s;
+}
+
+label {
+	position: relative;
+	top: 16px;
+	left: 3px;
+	font-size: small;
+}
