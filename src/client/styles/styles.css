@@ -8,17 +8,20 @@ body {
 
 h1,
 p,
-.Confirmed {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
 #link {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
+h2 {
+	text-align: center;
+}
+
+img {
+	margin: auto;
+	display: block;
+}
+
 a {
 	padding: 0px 8px;
 	word-wrap: normal;
